@@ -42,7 +42,6 @@ resource "yandex_compute_instance" "instance_cloud" {
   }
   network_interface {
     subnet_id = module.vpc.network[each.value.name_network].subnet[each.value.name_subnet].subnet_id
-    #security_group_ids = [module.vpc.security_group[each.value.name_sg].sg_id]
     ip_address = each.value.ip_address
     nat = each.value.nat
   }
