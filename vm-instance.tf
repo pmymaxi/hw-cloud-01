@@ -1,4 +1,3 @@
-# Выполняем через for_each, чтобы vm_db определили свой boot
 data "yandex_compute_image" "instance_img" {
   for_each = {
     for key, vm in local.vm_each :
