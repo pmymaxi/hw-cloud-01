@@ -88,3 +88,6 @@ Private VM размещена в подсети `private`.
 - NAT: отключён
 
 Private VM доступна по SSH через Public VM и имеет доступ в Интернет через NAT Instance.
+
+<img width="2214" height="1507" alt="изображение" src="https://github.com/user-attachments/assets/ca7c4946-d042-494f-84a7-517a10658013" />
+
